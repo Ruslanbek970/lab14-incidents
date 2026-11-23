@@ -1,5 +1,5 @@
 groups:
-  - name: starter
+  - name: availability
     rules:
       - alert: TargetDown
         expr: up == 0
@@ -7,10 +7,59 @@ groups:
         labels: { severity: page }
         annotations:
           summary: "{{ $labels.job }} is down"
+          runbook_url: "https://github.com/Ruslanbek970/lab14-incidents/blob/main/runbooks/target-down.md"
 
-      # Written in a hurry during the last incident. Everybody mutes it.
-      - alert: ErrorsDetected
-        expr: rate(http_requests_total{status=~"5.."}[1m]) > 0
+  # Task 2: SLO "99.5 % of checkouts succeed over 30 days" (error budget 0.5 %)
+  - name: checkout-slo-recording
+    rules:
+      - record: shop:checkout_error_ratio:rate5m
+        expr: |
+          (sum(rate(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[5m])) or vector(0))
+          / sum(rate(http_requests_total{job="shop",route="/api/checkout"}[5m]))
+      - record: shop:checkout_error_ratio:rate30m
+        expr: |
+          (sum(rate(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[30m])) or vector(0))
+          / sum(rate(http_requests_total{job="shop",route="/api/checkout"}[30m]))
+      - record: shop:checkout_error_ratio:rate1h
+        expr: |
+          (sum(rate(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[1h])) or vector(0))
+          / sum(rate(http_requests_total{job="shop",route="/api/checkout"}[1h]))
+      - record: shop:checkout_error_ratio:rate6h
+        expr: |
+          (sum(rate(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[6h])) or vector(0))
+          / sum(rate(http_requests_total{job="shop",route="/api/checkout"}[6h]))
+
+  - name: checkout-slo-alerts
+    rules:
+      - alert: CheckoutErrorBudgetFastBurn
+        expr: |
+          shop:checkout_error_ratio:rate1h / 0.005 > 14.4
+          and shop:checkout_error_ratio:rate5m / 0.005 > 14.4
+        for: 2m
+        labels: { severity: page, service: shop, route: /api/checkout }
+        annotations:
+          summary: "Checkout burns the 30-day error budget {{ $value | printf \"%.1f\" }}x too fast (1h window, page at 14.4x)"
+          runbook_url: "https://github.com/Ruslanbek970/lab14-incidents/blob/main/runbooks/checkout-slo.md"
+      - alert: CheckoutErrorBudgetSlowBurn
+        expr: |
+          shop:checkout_error_ratio:rate6h / 0.005 > 6
+          and shop:checkout_error_ratio:rate30m / 0.005 > 6
+        for: 5m
+        labels: { severity: ticket, service: shop, route: /api/checkout }
+        annotations:
+          summary: "Checkout burns the 30-day error budget {{ $value | printf \"%.1f\" }}x too fast (6h window, ticket at 6x)"
+          runbook_url: "https://github.com/Ruslanbek970/lab14-incidents/blob/main/runbooks/checkout-slo.md"
+
+  # Task 3: replaces the starter "ErrorsDetected" alert
+  - name: errors
+    rules:
+      - alert: HighErrorRatio
+        expr: |
+          sum by (job) (rate(http_requests_total{status=~"5.."}[5m]))
+            / sum by (job) (rate(http_requests_total[5m])) > 0.05
+          and sum by (job) (rate(http_requests_total[5m])) > 0.1
+        for: 5m
         labels: { severity: page }
         annotations:
-          summary: "errors!!!"
+          summary: "{{ $labels.job }}: {{ $value | humanizePercentage }} of requests return 5xx (last 5m, threshold 5%)"
+          runbook_url: "https://github.com/Ruslanbek970/lab14-incidents/blob/main/runbooks/high-error-ratio.md"

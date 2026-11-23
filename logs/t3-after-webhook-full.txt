@@ -1,0 +1,1 @@
+2026-11-23T19:09:36.419953965Z /everyone [FIRING] HighErrorRatio {'job': 'payments', 'severity': 'page'} :: payments: 11.21% of requests return 5xx (last 5m, threshold 5%)

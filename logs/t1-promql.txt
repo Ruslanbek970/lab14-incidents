@@ -1,0 +1,12 @@
+# Task 1 PromQL results (instant, 18:20:15 UTC)
+## p50 by route
+route=/api/search => 0.042
+route=/api/checkout => 0.061
+## p95 by route
+route=/api/search => 1.525
+route=/api/checkout => 0.0961
+## average by route
+route=/api/search => 0.1384
+route=/api/checkout => 0.0573
+## share of /api/search slower than 0.5 s
+{} => 0.0845

@@ -1,0 +1,209 @@
+19:00:18 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:00:48 burn5m=0.597 burn30m=0.1502 burn1h=0.1502 burn6h=0.1502 | 
+19:01:19 burn5m=1.1696 burn30m=0.2924 burn1h=0.2924 burn6h=0.2924 | 
+19:01:49 burn5m=2.4096 burn30m=0.5727 burn1h=0.5727 burn6h=0.5727 | 
+19:02:19 burn5m=4.2553 burn30m=0.9715 burn1h=0.9715 burn6h=0.9715 | 
+19:02:49 burn5m=6.5868 burn30m=1.4885 burn1h=1.4885 burn6h=1.4885 | 
+19:03:19 burn5m=8.5627 burn30m=1.8592 burn1h=1.8592 burn6h=1.8592 | 
+19:03:49 burn5m=9.009 burn30m=1.9569 burn1h=1.9569 burn6h=1.9569 | 
+19:04:19 burn5m=11.7647 burn30m=2.4359 burn1h=2.4359 burn6h=2.4359 | HighErrorRatio:pending 
+19:04:50 burn5m=12.1212 burn30m=2.5078 burn1h=2.5078 burn6h=2.5078 | HighErrorRatio:pending 
+19:05:20 burn5m=13.6646 burn30m=2.711 burn1h=2.711 burn6h=2.711 | HighErrorRatio:pending 
+19:05:50 burn5m=14.6032 burn30m=2.9056 burn1h=2.9056 burn6h=2.9056 | HighErrorRatio:pending 
+19:06:20 burn5m=17.8344 burn30m=3.5503 burn1h=3.5503 burn6h=3.5503 | HighErrorRatio:pending 
+19:06:50 burn5m=18.241 burn30m=3.965 burn1h=3.965 burn6h=3.965 | HighErrorRatio:pending 
+19:07:20 burn5m=21.6216 burn30m=4.4622 burn1h=4.4622 burn6h=4.4622 | HighErrorRatio:pending 
+19:07:51 burn5m=21.4286 burn30m=4.8505 burn1h=4.8505 burn6h=4.8505 | HighErrorRatio:pending 
+19:08:21 burn5m=23.1788 burn30m=5.3876 burn1h=5.3876 burn6h=5.3876 | HighErrorRatio:pending 
+19:08:51 burn5m=22.1538 burn30m=5.6989 burn1h=5.6989 burn6h=5.6989 | HighErrorRatio:pending 
+19:09:21 burn5m=22.2222 burn30m=5.817 burn1h=5.817 burn6h=5.817 | HighErrorRatio:firing 
+19:09:51 burn5m=22.619 burn30m=6.0982 burn1h=6.0982 burn6h=6.0982 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:10:21 burn5m=23.0088 burn30m=6.2118 burn1h=6.2118 burn6h=6.2118 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:10:51 burn5m=22.6744 burn30m=6.3936 burn1h=6.3936 burn6h=6.3936 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:11:22 burn5m=21.0526 burn30m=6.525 burn1h=6.4865 burn6h=6.4865 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:11:52 burn5m=20.5128 burn30m=6.9034 burn1h=6.7633 burn6h=6.7633 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:12:22 burn5m=19.8347 burn30m=7.3674 burn1h=7.0989 burn6h=7.0989 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:12:52 burn5m=19.0736 burn30m=7.7036 burn1h=7.3454 burn6h=7.3454 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:13:22 burn5m=17.8674 burn30m=8.0353 burn1h=7.5402 burn6h=7.5402 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:13:52 burn5m=18.3976 burn30m=8.2515 burn1h=7.6364 burn6h=7.6364 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:14:23 burn5m=18.9602 burn30m=8.5191 burn1h=7.7234 burn6h=7.7234 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+19:14:53 burn5m=17.7215 burn30m=8.7345 burn1h=7.7911 burn6h=7.7911 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:15:23 burn5m=18.1818 burn30m=8.9419 burn1h=7.8603 burn6h=7.8603 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:15:53 burn5m=19.7452 burn30m=9.5856 burn1h=8.2794 burn6h=8.2794 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:16:23 burn5m=21.3166 burn30m=9.9602 burn1h=8.4818 burn6h=8.4818 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:16:53 burn5m=22.5705 burn30m=10.6733 burn1h=8.939 burn6h=8.939 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:17:23 burn5m=24.127 burn30m=11.2494 burn1h=9.2851 burn6h=9.2851 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:17:54 burn5m=24.4373 burn30m=11.6534 burn1h=9.4814 burn6h=9.4814 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:18:24 burn5m=24.0506 burn30m=12.0099 burn1h=9.6916 burn6h=9.6916 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:18:54 burn5m=25.3776 burn30m=12.5186 burn1h=9.9487 burn6h=9.9487 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:19:24 burn5m=25.0746 burn30m=12.6984 burn1h=9.9805 burn6h=9.9805 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:19:54 burn5m=25.7485 burn30m=12.9767 burn1h=10.0808 burn6h=10.0808 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:20:24 burn5m=25.0 burn30m=13.0089 burn1h=9.9772 burn6h=9.9772 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:20:55 burn5m=22.8739 burn30m=13.3929 burn1h=10.1275 burn6h=10.1048 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:21:25 burn5m=20.649 burn30m=13.6296 burn1h=10.1845 burn6h=10.1845 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:21:55 burn5m=16.763 burn30m=13.7284 burn1h=10.1128 burn6h=10.1128 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:22:25 burn5m=16.1677 burn30m=14.0943 burn1h=10.2011 burn6h=10.2011 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:22:55 burn5m=17.094 burn30m=14.5473 burn1h=10.4108 burn6h=10.4108 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:23:25 burn5m=15.7303 burn30m=14.8002 burn1h=10.4603 burn6h=10.4603 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:23:56 burn5m=15.5556 burn30m=15.2559 burn1h=10.6602 burn6h=10.6602 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:24:26 burn5m=14.6597 burn30m=15.5806 burn1h=10.7614 burn6h=10.7614 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:24:56 burn5m=17.1429 burn30m=16.047 burn1h=10.9626 burn6h=10.9626 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:25:26 burn5m=17.5258 burn30m=16.2689 burn1h=11.0122 burn6h=11.0122 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:25:56 burn5m=17.0103 burn30m=16.4237 burn1h=11.0313 burn6h=11.0313 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:26:26 burn5m=16.9761 burn30m=16.5129 burn1h=10.989 burn6h=10.989 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:26:56 burn5m=18.5185 burn30m=16.9591 burn1h=11.1076 burn6h=11.1076 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:27:27 burn5m=19.1781 burn30m=17.37 burn1h=11.2061 burn6h=11.2061 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:27:57 burn5m=17.6796 burn30m=17.6125 burn1h=11.2747 burn6h=11.2747 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:28:27 burn5m=17.8042 burn30m=17.8854 burn1h=11.2667 burn6h=11.2667 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:28:57 burn5m=17.6292 burn30m=18.0304 burn1h=11.337 burn6h=11.337 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:29:27 burn5m=17.1779 burn30m=18.6457 burn1h=11.5642 burn6h=11.5642 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:29:57 burn5m=16.7702 burn30m=18.7226 burn1h=11.5663 burn6h=11.5663 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:30:27 burn5m=17.0886 burn30m=18.8753 burn1h=11.5717 burn6h=11.5717 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:30:58 burn5m=16.8224 burn30m=19.0802 burn1h=11.5702 burn6h=11.5702 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:31:28 burn5m=18.8088 burn30m=19.4023 burn1h=11.6959 burn6h=11.6959 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:31:58 burn5m=17.9487 burn30m=19.2024 burn1h=11.7101 burn6h=11.7101 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:32:28 burn5m=18.9024 burn30m=19.656 burn1h=11.9129 burn6h=11.9129 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:32:58 burn5m=18.5185 burn30m=19.4664 burn1h=11.9284 burn6h=11.9284 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:33:28 burn5m=18.9024 burn30m=19.5674 burn1h=11.9966 burn6h=11.9966 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:33:59 burn5m=17.9641 burn30m=19.2477 burn1h=11.9287 burn6h=11.9287 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:34:29 burn5m=17.1779 burn30m=19.4023 burn1h=12.0542 burn6h=12.0542 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:34:59 burn5m=18.4615 burn30m=19.6002 burn1h=12.1611 burn6h=12.1611 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:35:29 burn5m=18.9274 burn30m=19.7555 burn1h=12.1772 burn6h=12.1772 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:35:59 burn5m=18.6335 burn30m=19.6481 burn1h=12.2273 burn6h=12.2273 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:36:29 burn5m=19.1358 burn30m=19.4241 burn1h=12.3233 burn6h=12.3233 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:36:59 burn5m=19.6319 burn30m=19.3768 burn1h=12.3744 burn6h=12.3744 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:37:30 burn5m=17.1254 burn30m=19.1397 burn1h=12.425 burn6h=12.425 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:38:00 burn5m=18.3432 burn30m=18.9189 burn1h=12.5065 burn6h=12.5065 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:38:30 burn5m=17.5439 burn30m=18.7016 burn1h=12.5064 burn6h=12.5064 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:39:00 burn5m=17.9104 burn30m=18.5347 burn1h=12.4587 burn6h=12.4587 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:39:30 burn5m=19.1304 burn30m=18.9596 burn1h=12.6385 burn6h=12.6385 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:40:00 burn5m=17.765 burn30m=18.747 burn1h=12.6216 burn6h=12.6216 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:40:30 burn5m=17.0455 burn30m=18.7561 burn1h=12.6144 burn6h=12.6144 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:41:01 burn5m=14.9425 burn30m=18.4556 burn1h=12.5123 burn6h=12.5123 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:41:31 burn5m=13.7143 burn30m=18.2617 burn1h=12.5 burn6h=12.4208 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:42:01 burn5m=11.8644 burn30m=17.8276 burn1h=12.4694 burn6h=12.3069 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+19:42:31 burn5m=8.9286 burn30m=17.4805 burn1h=12.4542 burn6h=12.2068 | CheckoutErrorBudgetSlowBurn:firing 
+19:43:01 burn5m=7.6923 burn30m=17.1149 burn1h=12.4178 burn6h=12.1111 | CheckoutErrorBudgetSlowBurn:firing 
+19:43:31 burn5m=6.7901 burn30m=16.8462 burn1h=12.4725 burn6h=12.051 | CheckoutErrorBudgetSlowBurn:firing 
+19:44:01 burn5m=6.006 burn30m=16.5129 burn1h=12.433 burn6h=11.9382 | CheckoutErrorBudgetSlowBurn:firing 
+19:44:32 burn5m=2.4465 burn30m=16.376 burn1h=12.4847 burn6h=11.8494 | CheckoutErrorBudgetSlowBurn:firing 
+19:45:02 burn5m=1.2195 burn30m=16.0386 burn1h=12.4847 burn6h=11.7403 | CheckoutErrorBudgetSlowBurn:firing 
+19:45:32 burn5m=0.0 burn30m=15.8531 burn1h=12.4786 burn6h=11.6571 | CheckoutErrorBudgetSlowBurn:firing 
+19:46:02 burn5m=0.0 burn30m=15.1996 burn1h=12.4939 burn6h=11.562 | CheckoutErrorBudgetSlowBurn:firing 
+19:46:32 burn5m= burn30m= burn1h= burn6h= | 
+19:47:02 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:47:33 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:48:03 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:48:33 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:49:03 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:49:33 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:50:03 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:50:33 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:51:04 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:51:34 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:52:04 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:52:34 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:53:04 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:53:34 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:54:04 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:54:35 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:55:05 burn5m=0.0 burn30m=0.0 burn1h=0.0 burn6h=0.0 | 
+19:55:35 burn5m=0.6536 burn30m=0.3378 burn1h=0.3378 burn6h=0.3378 | 
+19:56:05 burn5m=1.8634 burn30m=0.9434 burn1h=0.9434 burn6h=0.9434 | 
+19:56:35 burn5m=3.125 burn30m=1.5038 burn1h=1.5038 burn6h=1.5038 | 
+19:57:05 burn5m=6.3091 burn30m=2.8369 burn1h=2.8369 burn6h=2.8169 | 
+19:57:35 burn5m=8.7227 burn30m=3.7736 burn1h=3.7736 burn6h=3.7736 | 
+19:58:06 burn5m=10.8974 burn30m=4.4386 burn1h=4.4386 burn6h=4.4386 | HighErrorRatio:pending 
+19:58:36 burn5m=12.963 burn30m=5.2434 burn1h=5.2434 burn6h=5.2434 | HighErrorRatio:pending 
+19:59:06 burn5m=14.5455 burn30m=5.7623 burn1h=5.7623 burn6h=5.7623 | HighErrorRatio:pending 
+19:59:36 burn5m=16.8675 burn30m=6.4665 burn1h=6.4665 burn6h=6.4665 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:00:06 burn5m=17.9641 burn30m=6.6372 burn1h=6.6372 burn6h=6.6372 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:00:36 burn5m=18.5185 burn30m=6.9114 burn1h=6.9114 burn6h=6.9114 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:01:07 burn5m=18.018 burn30m=6.7623 burn1h=6.7623 burn6h=6.7623 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:01:37 burn5m=17.6829 burn30m=6.7527 burn1h=6.7527 burn6h=6.7527 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:02:07 burn5m=17.6829 burn30m=7.4856 burn1h=7.4856 burn6h=7.4856 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:02:37 burn5m=19.1617 burn30m=8.5028 burn1h=8.5028 burn6h=8.5028 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:pending 
+20:03:07 burn5m=17.1091 burn30m=8.4004 burn1h=8.4004 burn6h=8.4004 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+20:03:37 burn5m=19.242 burn30m=9.3669 burn1h=9.3669 burn6h=9.3669 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+20:04:07 burn5m=20.3488 burn30m=10.0925 burn1h=10.0925 burn6h=10.0925 | CheckoutErrorBudgetSlowBurn:pending HighErrorRatio:firing 
+20:04:38 burn5m=20.0 burn30m=10.2689 burn1h=10.2689 burn6h=10.2689 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:05:08 burn5m=19.2635 burn30m=10.293 burn1h=10.293 burn6h=10.4019 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:05:38 burn5m=22.5352 burn30m=11.0769 burn1h=11.0769 burn6h=11.0769 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:06:08 burn5m=23.9316 burn30m=11.2024 burn1h=11.2024 burn6h=11.2024 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:06:38 burn5m=25.2149 burn30m=11.8076 burn1h=11.8076 burn6h=11.8841 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:07:08 burn5m=25.641 burn30m=12.0996 burn1h=12.0996 burn6h=12.0996 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:07:39 burn5m=23.7681 burn30m=12.2137 burn1h=12.2137 burn6h=12.1715 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:08:09 burn5m=25.0 burn30m=12.4232 burn1h=12.4232 burn6h=12.4232 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:08:39 burn5m=22.2222 burn30m=12.5333 burn1h=12.5333 burn6h=12.5333 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:09:09 burn5m=21.3415 burn30m=12.5572 burn1h=12.5572 burn6h=12.5572 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:09:39 burn5m=23.75 burn30m=13.0685 burn1h=13.0685 burn6h=13.4014 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:10:09 burn5m=24.2991 burn30m=13.4169 burn1h=13.4169 burn6h=13.4169 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:10:40 burn5m=39.0093 burn30m=16.6259 burn1h=16.6259 burn6h=17.296 | CheckoutErrorBudgetFastBurn:pending CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending TargetDown:pending 
+20:11:10 burn5m=60.815 burn30m=20.8955 burn1h=20.8955 burn6h=20.8955 | CheckoutErrorBudgetFastBurn:pending CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending TargetDown:firing 
+20:11:40 burn5m=78.9969 burn30m=24.4587 burn1h=24.4587 burn6h=24.4587 | CheckoutErrorBudgetFastBurn:pending CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending TargetDown:firing 
+20:12:10 burn5m=99.0881 burn30m=28.5225 burn1h=28.5225 burn6h=28.5225 | CheckoutErrorBudgetFastBurn:pending CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:12:40 burn5m=97.9351 burn30m=28.5396 burn1h=28.5396 burn6h=28.5396 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:13:10 burn5m=96.7552 burn30m=28.0548 burn1h=28.0548 burn6h=28.0548 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:13:40 burn5m=95.1289 burn30m=27.927 burn1h=27.927 burn6h=27.927 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:14:11 burn5m=94.5559 burn30m=27.9979 burn1h=27.9979 burn6h=27.9979 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:14:41 burn5m=92.1348 burn30m=27.818 burn1h=27.818 burn6h=27.818 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:15:11 burn5m=87.3239 burn30m=27.6736 burn1h=27.6736 burn6h=27.6736 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:pending 
+20:15:41 burn5m=68.75 burn30m=27.5037 burn1h=27.5037 burn6h=27.5037 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:firing 
+20:16:11 burn5m=52.1008 burn30m=27.3128 burn1h=27.3128 burn6h=27.3128 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:firing 
+20:16:41 burn5m=33.2362 burn30m=27.4757 burn1h=27.3562 burn6h=27.3562 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing HighErrorRatio:firing 
+20:17:12 burn5m=20.7715 burn30m=28.0019 burn1h=27.3764 burn6h=27.3764 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:17:42 burn5m=19.3353 burn30m=28.1113 burn1h=26.9411 burn6h=26.9411 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:18:12 burn5m=19.0184 burn30m=28.2215 burn1h=26.6297 burn6h=26.6297 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:18:42 burn5m=17.2524 burn30m=28.4024 burn1h=26.3736 burn6h=26.3736 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:19:12 burn5m=15.3333 burn30m=28.4024 burn1h=26.1106 burn6h=26.087 | CheckoutErrorBudgetFastBurn:firing CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:19:42 burn5m=13.7681 burn30m=28.6282 burn1h=25.8876 burn6h=25.8876 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:20:12 burn5m=10.0358 burn30m=28.6853 burn1h=25.4755 burn6h=25.4755 | CheckoutErrorBudgetSlowBurn:firing HighErrorRatio:firing 
+20:20:43 burn5m=8.2707 burn30m=28.9157 burn1h=25.2521 burn6h=25.2521 | CheckoutErrorBudgetSlowBurn:firing 
+20:21:13 burn5m=6.7164 burn30m=28.8577 burn1h=24.8597 burn6h=24.8597 | CheckoutErrorBudgetSlowBurn:firing 
+20:21:43 burn5m=2.9963 burn30m=28.8722 burn1h=24.542 burn6h=24.542 | CheckoutErrorBudgetSlowBurn:firing 
+20:22:13 burn5m=0.0 burn30m=28.8288 burn1h=24.0501 burn6h=24.0501 | CheckoutErrorBudgetSlowBurn:firing 
+20:22:43 burn5m=0.0 burn30m=28.8433 burn1h=23.7918 burn6h=23.7918 | CheckoutErrorBudgetSlowBurn:firing 
+20:23:13 burn5m=0.0 burn30m=28.9012 burn1h=23.491 burn6h=23.491 | CheckoutErrorBudgetSlowBurn:firing 
+20:23:43 burn5m=0.0 burn30m=28.7425 burn1h=23.1791 burn6h=23.1791 | CheckoutErrorBudgetSlowBurn:firing 
+20:24:14 burn5m=0.0 burn30m=28.671 burn1h=22.9026 burn6h=22.9026 | CheckoutErrorBudgetSlowBurn:firing 
+20:24:44 burn5m=0.0 burn30m=28.8144 burn1h=22.695 burn6h=22.695 | CheckoutErrorBudgetSlowBurn:firing 
+20:25:14 burn5m=0.0 burn30m=28.7575 burn1h=22.4125 burn6h=22.4125 | CheckoutErrorBudgetSlowBurn:firing 
+20:25:44 burn5m=0.0 burn30m=28.9181 burn1h=22.2308 burn6h=22.2308 | CheckoutErrorBudgetSlowBurn:firing 
+20:26:14 burn5m=0.0 burn30m=28.8032 burn1h=21.9596 burn6h=21.9596 | CheckoutErrorBudgetSlowBurn:firing 
+20:26:44 burn5m=0.0 burn30m=28.8196 burn1h=21.8182 burn6h=21.8182 | CheckoutErrorBudgetSlowBurn:firing 
+20:27:15 burn5m=0.0 burn30m=28.4103 burn1h=21.565 burn6h=21.565 | CheckoutErrorBudgetSlowBurn:firing 
+20:27:45 burn5m=0.0 burn30m=28.0 burn1h=21.286 burn6h=21.286 | CheckoutErrorBudgetSlowBurn:firing 
+20:28:15 burn5m=0.0 burn30m=27.3566 burn1h=21.0219 burn6h=21.0219 | CheckoutErrorBudgetSlowBurn:firing 
+20:28:45 burn5m=0.0 burn30m=27.1756 burn1h=20.6971 burn6h=20.6971 | CheckoutErrorBudgetSlowBurn:firing 
+20:29:15 burn5m=0.0 burn30m=26.5244 burn1h=20.3534 burn6h=20.3534 | CheckoutErrorBudgetSlowBurn:firing 
+20:29:45 burn5m=0.0 burn30m=26.5442 burn1h=20.1893 burn6h=20.1893 | CheckoutErrorBudgetSlowBurn:firing 
+20:30:15 burn5m=0.0 burn30m=25.9465 burn1h=19.8758 burn6h=19.8758 | CheckoutErrorBudgetSlowBurn:firing 
+20:30:45 burn5m=0.0 burn30m=25.9542 burn1h=19.6856 burn6h=19.6856 | CheckoutErrorBudgetSlowBurn:firing 
+20:31:16 burn5m=0.0 burn30m=25.8788 burn1h=19.4529 burn6h=19.4529 | CheckoutErrorBudgetSlowBurn:firing 
+20:31:46 burn5m=0.0 burn30m=25.4952 burn1h=19.2192 burn6h=19.2192 | CheckoutErrorBudgetSlowBurn:firing 
+20:32:16 burn5m=0.0 burn30m=24.8853 burn1h=18.9848 burn6h=18.9848 | CheckoutErrorBudgetSlowBurn:firing 
+20:32:46 burn5m=0.0 burn30m=24.5543 burn1h=18.75 burn6h=18.75 | CheckoutErrorBudgetSlowBurn:firing 
+20:33:16 burn5m=0.0 burn30m=23.8866 burn1h=18.4675 burn6h=18.4438 | CheckoutErrorBudgetSlowBurn:firing 
+20:33:46 burn5m=0.0 burn30m=23.2724 burn1h=18.2915 burn6h=18.2915 | CheckoutErrorBudgetSlowBurn:firing 
+20:34:16 burn5m=0.0 burn30m=23.1397 burn1h=18.1417 burn6h=18.1417 | CheckoutErrorBudgetSlowBurn:firing 
+20:34:47 burn5m=0.0 burn30m=22.7551 burn1h=17.9383 burn6h=17.9383 | CheckoutErrorBudgetSlowBurn:firing 
+20:35:17 burn5m=0.0 burn30m=22.2108 burn1h=17.734 burn6h=17.7285 | CheckoutErrorBudgetSlowBurn:firing 
+20:35:47 burn5m=0.0 burn30m=21.8238 burn1h=17.5824 burn6h=17.5824 | CheckoutErrorBudgetSlowBurn:firing 
+20:36:17 burn5m=0.0 burn30m=21.491 burn1h=17.4387 burn6h=17.4387 | CheckoutErrorBudgetSlowBurn:firing 
+20:36:47 burn5m=0.0 burn30m=20.9386 burn1h=17.2662 burn6h=17.2662 | CheckoutErrorBudgetSlowBurn:firing 
+20:37:17 burn5m=0.0 burn30m=20.5233 burn1h=17.0465 burn6h=17.0465 | CheckoutErrorBudgetSlowBurn:firing 
+20:37:47 burn5m=0.0 burn30m=20.1835 burn1h=16.852 burn6h=16.852 | CheckoutErrorBudgetSlowBurn:firing 
+20:38:18 burn5m=0.0 burn30m=19.8777 burn1h=16.6763 burn6h=16.6763 | CheckoutErrorBudgetSlowBurn:firing 
+20:38:48 burn5m=0.0 burn30m=19.5861 burn1h=16.4713 burn6h=16.4713 | CheckoutErrorBudgetSlowBurn:firing 
+20:39:18 burn5m=0.0 burn30m=18.8603 burn1h=16.2988 burn6h=16.262 | CheckoutErrorBudgetSlowBurn:firing 
+20:39:48 burn5m=0.0 burn30m=18.3375 burn1h=16.1345 burn6h=16.1345 | CheckoutErrorBudgetSlowBurn:firing 
+20:40:18 burn5m=0.0 burn30m=16.5829 burn1h=15.9424 burn6h=15.9424 | CheckoutErrorBudgetSlowBurn:firing 
+20:40:48 burn5m=0.0 burn30m=12.8514 burn1h=15.7722 burn6h=15.7722 | CheckoutErrorBudgetSlowBurn:firing 
+20:41:18 burn5m=0.0 burn30m=9.5904 burn1h=15.5929 burn6h=15.5718 | CheckoutErrorBudgetSlowBurn:firing 
+20:41:49 burn5m=0.0 burn30m=5.1411 burn1h=15.4797 burn6h=15.4797 | 
+20:42:19 burn5m=0.0 burn30m=3.2454 burn1h=15.3559 burn6h=15.3559 | 
+20:42:49 burn5m=0.0 burn30m=3.234 burn1h=15.1979 burn6h=15.1939 | 
+20:43:19 burn5m=0.0 burn30m=3.0395 burn1h=15.0943 burn6h=15.0943 | 
+20:43:49 burn5m=0.0 burn30m=2.6316 burn1h=14.9533 burn6h=14.9533 | 
+20:44:19 burn5m=0.0 burn30m=2.2324 burn1h=14.8301 burn6h=14.8301 | 
+20:44:49 burn5m=0.0 burn30m=1.7312 burn1h=14.6714 burn6h=14.6714 | 

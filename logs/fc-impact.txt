@@ -1,0 +1,23 @@
+# evaluated at 2026-11-23T20:25:00Z
+## sum(increase(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[30m]))
+{} => 288.8022284122562
+## sum(increase(http_requests_total{job="shop",route="/api/checkout"}[30m]))
+{} => 2002.5626740947075
+## sum(increase(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[30m])) / (sum(increase(http_requests_total{job="shop",route="/api/checkout"}[30m])) / 30)
+{} => 4.326489734601902
+## sum(increase(http_requests_total{job="shop",route="/api/checkout",status=~"5.."}[30m])) / (sum(increase(http_requests_total{job="shop",route="/api/checkout"}[30m])) / 30) / 216
+{} => 0.020030045067601396
+## changes(process_start_time_seconds{job="payments"}[30m])
+{'instance': 'payments:8000', 'job': 'payments'} => 3
+## sum by (card) (count_over_time({service="payments"} | json | status >= 500 [30m]))
+{'card': 'unionpay'} => 252
+## sum by (upstream_error) (count_over_time({service="shop"} | json | path="/api/checkout" and status=502 and upstream_error!="" [30m]))
+{'upstream_error': '<urlopen error [Errno -2] Name or service not known>'} => 143
+## sum(count_over_time({service="shop"} | json | path="/api/checkout" and status=502 and upstream_status="500" [30m]))
+{} => 145
+## sum by (version) (count_over_time({service="payments"} |~ `[0-9]{16}` | json [30m]))
+{'version': '1.1.0'} => 2433
+{"ts": "2026-11-23T19:55:12.703+00:00", "level": "ERROR", "service": "payments", "version": "1.1.0", "msg": "currency KZT not supported by the new unionpay client", "request_id": "c81401bdf91f4f54"}
+{"ts": "2026-11-23T19:55:12.703+00:00", "level": "ERROR", "service": "payments", "version": "1.1.0", "msg": "request", "request_id": "c81401bdf91f4f54", "method": "POST", "path": "/api/pay", "status": 500, "duration_ms": 70.6, "card": "unionpay", "amount": 37900, "card_number": "************0667"}
+{"ts": "2026-11-23T19:55:12.704+00:00", "level": "ERROR", "service": "shop", "version": "1.0.0", "msg": "request", "request_id": "c81401bdf91f4f54", "method": "POST", "path": "/api/checkout", "status": 502, "duration_ms": 73.5, "card": "unionpay", "upstream_status": 500}
+unreachable lines: 0

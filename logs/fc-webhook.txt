@@ -1,0 +1,11 @@
+ruslan@lab14:~/lab14-incidents$ docker compose logs -t --no-log-prefix --since 2026-11-23T19:50:00Z webhook
+2026-11-23T20:03:31Z /everyone [FIRING] HighErrorRatio {'job': 'payments', 'severity': 'page'} :: payments: 8.382% of requests return 5xx (last 5m, threshold 5%)
+2026-11-23T20:04:56Z /everyone [FIRING] CheckoutErrorBudgetSlowBurn {'route': '/api/checkout', 'service': 'shop', 'severity': 'ticket'} :: Checkout burns the 30-day error budget 10.1x too fast (6h window, ticket at 6x)
+2026-11-23T20:11:16Z /everyone [FIRING] TargetDown {'instance': 'payments:8000', 'job': 'payments', 'severity': 'page'} :: payments is down
+2026-11-23T20:12:51Z /everyone [FIRING] CheckoutErrorBudgetFastBurn {'route': '/api/checkout', 'service': 'shop', 'severity': 'page'} :: Checkout burns the 30-day error budget 28.6x too fast (1h window, page at 14.4x)
+2026-11-23T20:15:56Z /everyone [FIRING] HighErrorRatio {'job': 'shop', 'severity': 'page'} :: shop: 12.22% of requests return 5xx (last 5m, threshold 5%)
+2026-11-23T20:16:16Z /everyone [RESOLVED] TargetDown {'instance': 'payments:8000', 'job': 'payments', 'severity': 'page'} :: payments is down
+2026-11-23T20:20:56Z /everyone [RESOLVED] HighErrorRatio {'job': 'shop', 'severity': 'page'} :: shop: 5.551% of requests return 5xx (last 5m, threshold 5%)
+2026-11-23T20:22:51Z /everyone [RESOLVED] CheckoutErrorBudgetFastBurn {'route': '/api/checkout', 'service': 'shop', 'severity': 'page'} :: Checkout burns the 30-day error budget 26.0x too fast (1h window, page at 14.4x)
+2026-11-23T20:23:31Z /everyone [RESOLVED] HighErrorRatio {'job': 'payments', 'severity': 'page'} :: payments: 5.208% of requests return 5xx (last 5m, threshold 5%)
+2026-11-23T20:44:56Z /everyone [RESOLVED] CheckoutErrorBudgetSlowBurn {'route': '/api/checkout', 'service': 'shop', 'severity': 'ticket'} :: Checkout burns the 30-day error budget 15.5x too fast (6h window, ticket at 6x)

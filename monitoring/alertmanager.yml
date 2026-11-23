@@ -1,9 +1,9 @@
 route:
   receiver: everyone
-  group_by: ["..."]        # every label combination = its own notification
-  group_wait: 0s
-  group_interval: 10s
-  repeat_interval: 1m      # and again, every minute
+  group_by: [alertname, job]   # one notification per alert and service, not per label set
+  group_wait: 30s              # wait for related alerts, send them together
+  group_interval: 5m           # new alerts in an existing group: at most every 5 min
+  repeat_interval: 4h          # remind about a still-firing alert every 4 h, not every minute
 
 receivers:
   - name: everyone

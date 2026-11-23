@@ -1,0 +1,7 @@
+18:08:48 stack up (docker compose up -d), payments 1.0.0
+18:24:15 Task3-before: deploy payments 1.1.0
+18:40:21 rollback 1.0.0 + final rules/AM, prometheus+AM recreated (Task3-after window starts 18:40)
+18:41:08 prometheus+AM removed with -v (fresh TSDB); Task3-after window = 18:45-19:15
+19:00:12 Task2: deploy payments 1.1.0
+19:40:11 Task2: rollback payments 1.0.0
+19:46:32 FC: prometheus+AM reset (-v) for a clean baseline
